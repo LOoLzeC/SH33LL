@@ -16,7 +16,7 @@ def one(args):
 	try:
 		r=requests.get(terget+"/"+args).status_code
 		if r ==200:
-			print(G+"\n(+) "+terget+"/"+args+"                        ")
+			print(G+"\r(+) "+terget+"/"+args+"                        ")
 			open("result.txt","a+").write(terget+"/"+args+"\n")
 		else:
 			num+=1
