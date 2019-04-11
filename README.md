@@ -3,7 +3,7 @@ SHELL SCANNER
 <br>
 $ cd SH33LL
 <br>
-$ python scan.py
+$ python sh33l.py
 <br>
 # Copyright 2018
 <br>
